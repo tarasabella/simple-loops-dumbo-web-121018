@@ -1,8 +1,8 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
+  phrase = "Welcome to the Flatiron School's Web Development Course!"
   loop do number_of_times < 7 
-    phrase = "Welcome to the Flatiron School's Web Development Course!"
     puts phrase
   end 
 end 
