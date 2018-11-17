@@ -2,7 +2,10 @@
 
 def loop_iterator(number_of_times)
   loop do while number_of_times < 7 
-    puts "Welcome to the Flatiron School's Web Development Course!"
+    phrase = "Welcome to the Flatiron School's Web Development Course!"
+    puts phrase
+  end 
+end 
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
   # The integer is the number of times the loops should puts out the phrase
